@@ -1,3 +1,0 @@
-alter system checkpoint
-
-/
