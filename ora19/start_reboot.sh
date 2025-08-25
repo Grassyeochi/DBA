@@ -12,3 +12,7 @@ EOF
 # 리스너 시작
 /u01/app/oracle/product/19.3.0/dbhome_1/bin/lsnrctl start
 
+#git
+cd /home/oracle/DBA/
+git pull origin main
+cd
