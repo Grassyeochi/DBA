@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#환경변수 불러오기
+source .bash_profile
+
+# ORACLE Server 시작
+/u01/app/oracle/product/12.2.0/dbhome_1/bin/sqlplus / as sysdba <<EOF
+startup;
+exit;
+EOF
+
+# 리스너 시작
+/u01/app/oracle/product/12.2.0/dbhome_1/bin/lsnrctl start
+
