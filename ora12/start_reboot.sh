@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #환경변수 불러오기
-source .bash_profile
+source /home/oracle/.bash_profile
 
 # ORACLE Server 시작
 /u01/app/oracle/product/12.2.0/dbhome_1/bin/sqlplus / as sysdba <<EOF
@@ -16,3 +16,5 @@ EOF
 cd /home/oracle/DBA/
 git pull origin main
 cd
+
+echo "실행 완료"
