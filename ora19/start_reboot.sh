@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #환경변수 불러오기
-source .bash_profile
+source /home/oracle/.bash_profile
 
 # ORACLE Server 시작
 /u01/app/oracle/product/19.3.0/dbhome_1/bin/sqlplus / as sysdba <<EOF
