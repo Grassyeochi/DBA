@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rsync -av --include="*.sql" --include="*.sh" --exclude="c.sql" --exclude="java.sql" --exclude="*" /home/oracle/ /home/oracle/DBA/ora19
+rsync -av --include="*.sql" --include="*.sh" --exclude="c.sql" --exclude="java.sql" --exclude="*.dbf" --exclude="*" /home/oracle/ /home/oracle/DBA/ora19
 
 cd ./DBA/
 
