@@ -1,3 +1,5 @@
+-- 특정 테이블의 segment의 extent를 확인 
+
 col segment_name for a10
 
 select segment_name, extent_id, bytes/1024

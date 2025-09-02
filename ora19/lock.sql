@@ -1,3 +1,5 @@
+-- lock 상태 확인
+
 col holder for a15
 col waiter for a15
 select decode(status,'INACTIVE',username || ' ' || sid || ',' || serial#,'lock') as Holder,

@@ -1,3 +1,5 @@
+-- PGA 메모리 확인
+
 SELECT name, value/1024/1024 AS "Size(MB)"
 FROM v$pgastat
 WHERE name IN ('total PGA allocated', 

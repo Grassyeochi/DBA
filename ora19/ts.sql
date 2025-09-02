@@ -1,3 +1,5 @@
+-- 데이터파일별 크기와 소속 테이블스페이스 정보
+
 col tablespace_name for a10
 col file_name for a55
 col mb_size for 9999

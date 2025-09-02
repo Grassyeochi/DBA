@@ -1,3 +1,5 @@
+-- sga 메모리 상태 확인
+
 PROMPT *** CURRENT parameter settings ***
 col name format a12
 col VALUE format a8

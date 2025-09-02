@@ -1,3 +1,4 @@
+-- 세션의 SID, SERIAL#, process id 확인
 select
         s.sid, s.serial#, p.spid
 from

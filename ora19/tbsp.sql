@@ -1,3 +1,5 @@
+-- 테이블스페이스의 용량 확인
+
 select   t.tablespace_name, free_size,
 round( ((t.total_size - f.free_size) / t.total_size) * 100) usedspace
 from (select tablespace_name, sum(bytes)/1024/1024 total_size

@@ -1,3 +1,5 @@
+-- 악성 sql
+
 set lines 4000
 col "username" format a20
 col "kill_command" format a60

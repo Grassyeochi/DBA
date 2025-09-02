@@ -1,3 +1,5 @@
+-- 현재 메모리 사용량과 여유 메모리 확인
+
 col current for a10
 
 col current clear
