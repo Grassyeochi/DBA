@@ -1,0 +1,5 @@
+-- 자신의 권환 확인
+SELECT * FROM DBA_USER_PRIVS;
+
+SELECT * FROM DBA_SYS_PRIVS;
+/
