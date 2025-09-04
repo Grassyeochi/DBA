@@ -10,9 +10,18 @@ cd ./DBA/
 git add -A
 if ! git diff --cached --quiet; then
   git commit -m "ora19 : auto commit at $(date +'%Y-%m-%d %H:%M:%S')"
-  git push origin main
 else
   echo "No changes to commit."
 fi
+
+echo -n "COMMIT and PUSH? [Y/N] : "
+read aa
+echo "                                "
+case $aa in
+    [yY]) git push origin main ;;
+    *) git reset --hard HEAD^ ;;
+esac
+echo "                                "
+
 
 cd
