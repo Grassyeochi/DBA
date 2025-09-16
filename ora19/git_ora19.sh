@@ -3,7 +3,7 @@
 rm -rf /home/oracle/DBA/ora19/*
 echo "파일 초기화 완료"
 
-rsync -av --exclude="c.sql" --exclude="java.sql" --exclude="script.sql" --exclude="demo.sql" --include="*.sql" --include="*.sh"  --exclude="*" "/home/oracle/" "/home/oracle/DBA/ora19/"
+rsync -av --exclude="c.sql" --exclude="java.sql" --exclude="script.sql" --exclude="demo.sql" --include="*.sql" --include="*.sh" --include="start_set" --exclude="*" "/home/oracle/" "/home/oracle/DBA/ora19/"
 
 cd ./DBA/
 
