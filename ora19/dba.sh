@@ -23,7 +23,7 @@ case $aa in
     1) sqlplus -s system/oracle_4U @/home/oracle/lock.sql ;;
     2) sqlplus -s system/oracle_4U @/home/oracle/bad.sql ;;
     3) sqlplus -s system/oracle_4U @/home/oracle/spid.sql ;;
-    4) tail -f /u01/app/oracle/diag/rdbms/ora19/ORA19/trace/alert* ;;
+    4) tail -f /u01/app/oracle/diag/rdbms/oracle19/oracle19/trace/alert* ;;
     5) tail -f /u01/app/oracle/diag/rdbms/ora19dw/ora19dw/trace/alert* ;;
     6) tail -f /u01/app/oracle/diag/rdbms/ora192/ORA192/trace/alert* ;;
 esac
