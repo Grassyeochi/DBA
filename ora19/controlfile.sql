@@ -1,2 +1,2 @@
-select name from v$controlfile
-/
+select name from v$controlfile;
+
