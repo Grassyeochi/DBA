@@ -1,0 +1,12 @@
+create script whole_backup
+   comment 'DATABASE BACKUP INCLUDING CONTROLFILE'  
+   {
+     backup database include current controlfile;
+   }
+
+create script backup_controlfile
+   comment 'CONTROLFILE BACKUP'
+   {
+    backup current controlfile;
+   }
+
