@@ -1,2 +1,2 @@
-select group#, status, sequence#, archived from v$log;
+select group#, status, thread#, sequence#, archived from v$log;
 
